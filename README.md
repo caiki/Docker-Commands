@@ -36,5 +36,8 @@ Con esto ingresas al contenedor.
 #### Comando para eliminar contenedores
 
     docker rm "IDdelContenedor"
+#### Abrir nueva terminal de contenedor Docker
+
+    sudo docker exec -it db1902e6753a bash
 
     
